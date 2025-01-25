@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACCUEIL</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#header-navbar" data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true" tabindex="0"
+      class=" cbg-darker m-0 p-0">
+
+<navigation id="header" class="fixed-top ">
+    <nav id="header-navbar" class="navbar navbar-expand-md cbg-darker" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="index.html#acceil"><h3 class="font-stretch text-danger">PORTFOOLIO</h3></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                    aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarColor02">
+                <ul class="nav navbar-nav  ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#acceil"><b>ACCUEIL</b>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="projet.html"><b>TOUT PROJET</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</navigation>
+
+<section id="spacer-top" class="my-4 p-3"></section>
+
+<section id="projet01" class="row p-4 mt-4 m-0">
+
+    <div class="col-12 col-xl-1"></div>
+    <div class="row col-12 col-xl-10">
+
+        <h1 class="display-1 text-chalk font-stretch fw-bold">Profile 3DD scan</h1>
+        <h5 class="text-chalk">Construit a base d'une collection d'image en Meshroom et polis en blender</h5>
+
+        <div class="row flex-md-row p-4">
+            <div class="col-12 col-md-5 col-lg-3">
+                <img class="img-fluid img-thumbnail" src="assets/images/whitescan.webp" alt="">
+            </div>
+            <div class="col-12 col-md-7 col-lg-9">
+                <p class="lead text-chalk p-2">
+                    Rendu brut d'un modèle qui n'a pas été nettoyé à la main dans dans l'application Blender après.
+                    Ce modèle montre les imperfections du rendu Meshroom, qui peuvent être minimisées en optimisant les
+                    paramètres du programme au long du processus. Ce modèle bosselé et rugueux est encore extrêmement
+                    précis dans les proportions et la taille du modèle 3D, ce qui nous donne un excellent modèle avec
+                    lequel travailler.
+                    <br><br>
+                    Ce processus est similaire à celui utilisé dans les IRM pour créer des modèles 3D du cerveau.
+                </p>
+            </div>
+            <hr class="text-chalk mt-2">
+        </div>
+
+        <div class="row flex-md-row-reverse p-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <img class="img-fluid" src="assets/images/CONCRETE001.webp" alt="">
+            </div>
+            <div class="col-12 col-md-6 col-lg-8">
+                <p class="text-chalk p-2">
+                    Pour réaliser un scan 3D, je commence par prendre une série de photos superposées de mon sujet sous
+                    différents angles. J'importe ensuite ces images dans Meshroom, qui les traite pour créer un maillage
+                    et
+                    une texture 3D. Une fois la numérisation terminée, j'exporte le modèle sous forme de fichier OBJ ou
+                    FBX.
+                    Ensuite, j'ouvre Blender et j'importe le fichier pour affiner le modèle et textures en sort
+                    d'ajouter les détails que je souhaite. Enfin, je peux effectuer le rendu de la scène ou exporter le
+                    modèle
+                    fini pour mes projets.
+                </p>
+                <hr class="text-chalk">
+            </div>
+        </div>
+
+        <div class="row flex-md-row p-4">
+            <div class="col-12 col-md-5 col-lg-3">
+                <img class="img-fluid" src="assets/images/sandyheads.webp" alt="">
+            </div>
+            <div class="col-12 col-md-7 col-lg-9">
+                <p class="text-chalk p-2">
+                    Pour éditer des modèles 3D dans Blender, je sélectionne le modèle et j'appuie sur Tab pour entrer en
+                    mode édition. À partir de là, je peux manipuler les sommets, les arêtes et les faces à l'aide
+                    d'outils
+                    tels que Extrude, Scale et Loop Cut. J'utilise également des modificateurs pour des ajustements plus
+                    complexes.
+                </p>
+                <hr class="text-chalk">
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="fixed-bottom d-flex flex-wrap justify-content-between align-items-center p-1 px-4 my-2 text-chalk">
+    <p class="m-0"> © 2024 ALAN OTT - ECOLE HEXAGONE </p>
+</footer>
+
+<script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
